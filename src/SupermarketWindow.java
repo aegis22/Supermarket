@@ -7,10 +7,10 @@ public class SupermarketWindow {
 		ControlSupermarket control = new ControlSupermarket(panel);
 		panel.controller(control);
 		
-		JFrame ventana= new JFrame("Supermarket");
-		ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		ventana.setContentPane(panel);
-		ventana.pack();
-		ventana.setVisible(true);
+		JFrame window = new JFrame("Supermarket");
+		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		window.setContentPane(panel);
+		window.pack();
+		window.setVisible(true);
 	}
 }
