@@ -20,7 +20,7 @@ public class SupermarketPanel extends JPanel implements SupermarketView {
 		textApples = new JTextField(10);
 		JLabel breadLabel = new JLabel("Bread");
 		textBread = new JTextField(10);
-		JLabel cheeseLabel = new JLabel("Cheese");
+		JLabel cheeseLabel = new JLabel("Cheese (g)");
 		textCheese = new JTextField(10);
 		JLabel drinkLabel = new JLabel("Fizzy Drink");
 		textDrink = new JTextField(10);

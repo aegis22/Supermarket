@@ -1,5 +1,9 @@
 import java.text.DecimalFormat;
 
+import Discounts.FreeDiscount;
+import Discounts.NoDiscount;
+import Discounts.PriceDiscount;
+
 
 public class Supermarket {
 	private Product[] products;

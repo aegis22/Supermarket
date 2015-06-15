@@ -1,3 +1,5 @@
+import Discounts.Discount;
+
 
 public class Product {
 	private int reference;

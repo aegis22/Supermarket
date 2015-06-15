@@ -1,3 +1,5 @@
+package Discounts;
+
 
 public class FreeDiscount implements Discount {
 	private String type;
